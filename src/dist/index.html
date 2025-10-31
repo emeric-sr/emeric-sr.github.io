@@ -68,14 +68,14 @@
       <h1 class="title">À propos de moi</h1>
       <hr />
       <p>Actuellement étudiant à l’université Marie Louis Pasteur en BUT Réseaux et Télécommunications, parcours Pilotage de projet
-	  voici un aperçu de mon portfolio. Il a pour but de présenter un aperçu des projets auxquels j’ai pu participer. Pour toute prise
+	  voici un aperçu de mon portfolio. Il a pour but de présenter mes compétences ainsi que les projets auxquels j’ai pu participer. Pour toute prise
 	  de contact ou question, n’hésitez pas à vous référer à la partie « Contact ».
 	  </p>
     </div>
   </section>
   <section class="section">
     <div class="container">
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Expérience</h1>
       <hr />
       <div class="card">
         <div class="card-content">
@@ -144,7 +144,7 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Projets</h1>
+      <h1 class="title">Découvertes et Projets</h1>
       <hr />
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
@@ -159,9 +159,9 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">À venir</p>
+                <p class="title">Séparation d'onde</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-2-modal" src="img/pied-piper-logo.png">
+                  <img class="modal-trigger" data-target="project-2-modal" src="img/dunder-mifflin-logo.png">
                 </figure>
               </article>
             </div>
@@ -299,8 +299,7 @@
 		  <br><br>
 		  L'entreprise, quant à elle, est représentée par maître BELLAHOUEL, qui déclare l'avoir licenciée pour plusieurs chefs
 		  d'accusation, dont harcèlement et divulgation de données confidentielles. Elle réclame en premier lieu 1 400 €
-		  puis 700 € de dommages et intérêts. Son dossier semble imprécis et elle ne paraît pas sûre d’elle à certains moments 
-		  de l'audition.
+		  puis 700 € de dommages et intérêts.
 		  <br><br>
 		  Au cours de l'affaire, maître DAREY fournit un grand nombre de conversations de Mme DOIZELET avec certaines de
 		  ses collègues que l’entreprise accuse d’avoir été harcelées, rendant la qualité de vie au travail inhospitalière.
@@ -357,32 +356,147 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">À venir</p>
+        <p class="modal-card-title">Projet de séparation d'onde</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
         <div id="project-2-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/carousel/drone.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/carousel/shema.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/carousel/gnu1.png">
           </figure>
+		  <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/gnu2.png">
+          </figure>
+		  <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/gnu3.png">
+          </figure>
+		  <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/gnu4.png">
+          </figure>		  
         </div>
 
         <div class="content">
 
-          <p>À venir</p>
+          <p>Ce projet a pour but d’isoler certaines fréquences, comme par exemple, le bruit
+			des hélices d’un drone. Une configuration à deux microphones est fixée sur le
+			drone pour en détecter une voix humaine qui appellerait à l’aide. On cherche
+			alors à supprimer les bruits indésirables et à amplifier d’une certaine manière la
+			voix du sol. Ce projet a pour but de faciliter la détection de personne en détresse.
+			Le stage s’articule autour de la résolution de problèmes en lien avec le traitement
+			de signaux audio.
+			<br><br>
+			Ce stage m’a permis de découvrir un domaine à composante physique centré vers
+			le traitement de signaux audio, domaine éloigné à celui dont j’aspire, à savoir un
+			domaine plus orienté dans celui de mon parcours actuel à savoir pilotage de projet.
+			En outre il m’a permis d’explorer de nouveaux horizons avec comme
+			problématique la capture de signaux audio depuis un drone ainsi que
+			l’identification automatique de la parole.<br>
+			Les drones ont une capacité de prise de vue avec une caméra embarquée, mais,
+			parfois les victimes ne sont pas visibles par la voie aérienne, comme lorsqu’ils
+			sont dans une forêt dense. Dans ce contexte, plusieurs capteurs sont ajoutés aux
+			drones afin de multiplier les sources d’identification :<br>
+			- Récepteur d’ondes radio<br>
+			- Microphone pour capter des appels à l’aide<br>
+			- Caméra thermique pour des recherches nocturnes<br>
+			- Lidar Multi-échos pour construire des images, 3D d’une zone<br><br>
+			Dans le cadre du projet, l’accent est mis sur la partie audio,
+			notamment l’utilisation de microphones pour capter des appels à l’aide.<br><br>
+			Mon objectif initial consistait à capturer des signaux audio enregistrés depuis un
+			drone, afin d’identifier automatiquement une parole humaine, par exemple un
+			appel à l’aide.<br>
+			Le dispositif envisagé reposait sur un drone équipé d’une perche comportant
+			deux microphones : l’un placé à proximité des hélices, l’autre positionné un peu
+			plus loin. L’idée était de tirer parti du léger décalage temporel entre les signaux
+			captés par les deux microphones, dû à leur éloignement, pour localiser la source
+			de la voix humaine.<br>
+			En effet, un son provenant du sol est capté en premier par le microphone le plus
+			éloigné des hélices (donc orienté vers le bas), tandis que le bruit généré par le
+			drone est capté prioritairement par le microphone le plus proche des hélices. Ce
+			décalage permet de distinguer la direction d’origine des sons.
+			L’objectif était donc de réduire, voire de supprimer, le bruit parasite du drone, afin
+			de mieux isoler et amplifier la voix humaine en provenance du sol. La présence
+			des deux microphones se justifie ainsi par la possibilité de soustraire le bruit
+			venant de l’arrière (le drone) pour mettre en valeur le signal utile venant de l’avant
+			(la voix).<br>
+			(image 2 pour l'illustration de mes propos via un shéma.)<br><br>
+			L’objectif global du projet était de réaliser diverses analyses audio, en appliquant
+			des techniques de réduction de bruit afin de reproduire différents scénarios
+			réalistes.<br>
+			Cela a nécessité plusieurs étapes : la génération et l’acquisition de signaux
+			simples, la capture de l’audio dans des conditions à la fois simulées et réelles,
+			l’étude de la direction du son (d’abord en mono, puis en stéréo), ainsi que la
+			synchronisation temporelle des canaux, que ce soit avec un décalage fixe ou par
+			ajustement automatique.<br><br>
+
+			GNU Radio est un environnement de développement open source dédié au
+			traitement du signal, permettant la conception des systèmes de
+			radiocommunication ou audio via une interface graphique ou en code Python. Il
+			repose sur un assemblage de blocs tel que des filtres par exemple. Il permet la
+			simplification des traitements audio complexes sans avoir à coder chaque étape
+			manuellement.<br><br>
+			Dans le cadre de mon projet il m’a permis de simuler des traitements
+			audio, d’appliquer des filtres réductions de bruits et de visualiser les signaux en
+			temps réel (par exemple sous forme de spectrogrammes).<br>
+			De ce fait les réductions de bruit étaient absolues, car il n’y a aucune interférence
+			possible sans le vouloir spécifiquement. Cependant, la réduction de bruit sur des
+			signaux généré via GNU Radio n’a pas grand intérêt (hormis pour comprendre
+			globalement le fonctionnement), vu que dès qu’il s’agit d’un travail sur un
+			enregistrement fait dans des conditions réelles il y aura toujours un ou plusieurs
+			légers parasites.<br><br>
+			Pour les méthodes de réduction voici un exemple de graphique que j’ai pu effectuer.
+			Ce fichier comprend un son de 600, 1100 et 1600 hz additionné. L’objectif ici est
+			d’observer l’évolution que va avoir certaines fréquences en modifiant le délai ou
+			l’amplitude. (image 3 et 4)<br><br>
+			Voici donc un enregistrement qui a été réalisé en condition réelle, la
+			réduction de bruit est bien appliquée mais, n’est pas absolue comme dans le
+			dernier exemple (Cela reste légèrement visible lorsqu’on effectue un fort zoom, et
+			demeure encore un minimum audible). Il s’agit là de déphasage. (image 5 et 6)<br><br>
+			Il reste plusieurs aspects à anticiper avec le projet. Premièrement si un vent est trop
+			fort le drone ne pourra pas être déployé, ensuite il faudrait prévoir que le bruit du
+			vent soit atténué car tout comme les hélices il représente un bruit majeur à
+			supprimer ou atténuer le plus possible. Deuxièmement vient le problème d’un
+			son qui vient du sol mais, qui ne serait pas humain il faudrait donc savoir
+			comment savoir s’il s’agit d’un son humain ou non. Enfin le drone n’est
+			exploitable que hors des endroits les plus bruyants comme une ville par exemple.<br><br>
+			Le travail actuel comporte aussi certaines limite. La directionnalité de l'appel de la
+			victime n'est pas possible avec 2 microphones dans l'axe du drone. Il faut plutôt 
+			2 microphones dans l'axe perpendiculaire du drone ou mieux 3 microphones en forme de triangle. 
+			Ce sera l'étape qui suivra celle où la prise de son avec 2 microphones efface bien le bruit du drone.
+			En théorie des fichiers audio avec une annulation parfaite ont été faits et sont
+			bien fonctionnels, l’annulation est absolue. Cependant, ce qui nous intéresse ce
+			sont des enregistrements avec des bruits qui ont été généré dans des conditions
+			réelles. Nous devons faire face à des problèmes d’écho et à la présence possible
+			de bruits extérieurs. Cependant, dans le cas du drone, l’écho aurait été
+			quasiment inexistant puisque son utilisation se fait en extérieur, contrairement à
+			une salle fermée où la réverbération est bien plus marquée.<br><br>
+			
+		    <strong>Conclusion :</strong><br>			
+			Durant ce projet j’ai dû me confronter à une problématique autour des traitements de
+			signaux : l’identification de certaines fréquences et l’atténuation de certaines.
+			L’objectif principal était la captation et l’isolation de certains bruits définis. Pour cela, il
+			fallait atténuer des fréquences en particulier. Le but était alors d’exploiter le décalage
+			temporel entre les signaux capté dans un but d’atténuation de bruit afin d’en trouver une
+			voix humaine par exemple. Ce projet m’a ainsi permis de mieux comprendre les
+			principes de la réduction de bruit ainsi que les méthodes permettant de préserver un
+			signal spécifique.<br>
+			Ce projet m’aura permis d’approfondir mes compétences sur le traitement de signal et
+			d’appréhender la complexité d’un système audio dans un contexte réel.<br><br>
+			À la suite de ce Projet nous pouvons absolument faire un lien avec l'apprentissage critique
+			AC24.04PilPro qui définit les proposition de solutions techniques R&T efficientes
+			</p>
 
           <div class="tags">
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
+            <span class="tag">Raspberry PI</span>
+            <span class="tag">GNU Radio</span>
+            <span class="tag">Debian</span>
+            <span class="tag">MacOS</span>
           </div>
 
         </div>
