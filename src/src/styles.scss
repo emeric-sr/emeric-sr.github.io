@@ -12,7 +12,18 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // More theme colors could be added here...
-$primary: #454545;
+$primary: #020024;
+
+.navbar {
+  background: #7a7a7a;
+  background: linear-gradient(90deg,rgba(122, 122, 122, 1) 0%, rgba(184, 180, 180, 1) 25%, rgba(122, 122, 122, 1) 50%, rgba(184, 180, 180, 1) 75%, rgba(122, 122, 122, 1) 100%);
+}
+
+.hero {
+  background: linear-gradient(90deg,rgba(122, 122, 122, 1) 0%, rgba(184, 180, 180, 1) 25%, rgba(122, 122, 122, 1) 50%, rgba(184, 180, 180, 1) 75%, rgba(122, 122, 122, 1) 100%);
+  margin-top: 0;
+}
+
 
 $spaces: ("0": 0, "1": 1.65rem, "2": 1.75rem);
 
@@ -40,6 +51,7 @@ a.icon > strong {margin-left:.25rem}
 
 // Flickity - begin
 .carousel-cell {width:100%}
+
 // Flickity - end
 
  
