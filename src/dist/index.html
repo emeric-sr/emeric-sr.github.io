@@ -167,9 +167,9 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">À venir</p>
+                <p class="title">Déploiement d'un réseau d'hôpital de campagne</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/pied-piper-logo.png">
+                  <img class="modal-trigger" data-target="project-3-modal" src="img/hopi.png">
                 </figure>
               </article>
             </div>
@@ -512,29 +512,82 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">À venir</p>
+        <p class="modal-card-title">Projet de déploiement de réseau d'hôpital de campagne</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
         <div id="project-3-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/carousel/devis.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/carousel/trello.png">
           </figure>
         </div>
 
         <div class="content">
-          <p>À venir</p>
+          <p>Cette SAÉ a pour but un Projet de déploiement de réseau d'hôpital de campagne avec plusieurs contraintes :<br><br>
+			 - Doit être déployable n’importe où, même dans des endroits sans couverture 4G<br>
+			 - Doit être déployable rapidement (24h-72h)<br>
+			 - Doit garantir la sécurité des données sensibles (vlans séparés)<br>
+			 - Doit avoir un haut taux de disponibilité (redondance des liens, qos voix, matériel ondulé)<br><br>
+			  Mener un projet informatique et réseau complexe, en équipe : <br>
+			 - Adressant le pilotage projet (pilotage de projet)<br>
+			 - Du réseau avancé, sécurisé et résilient (cyber-sécurité)<br>
+			 - De l’inter-connexion de systèmes (Internet des Objets et mobilité)<br><br>
+
+			 Le professionnel R&T est intégré dans un service de technologies de l’information dans lequel il est amené à travailler sur la
+             conception d’applications ou de projets informatiques au sein d’une équipe. Il doit mettre en œuvre un environnement de travail
+             collaboratif et utiliser des méthodologies de gestion de projet informatique.<br>
+             Un projet informatique nécessite une répartition des tâches entre les différents membres de l’équipe dont le professionnel
+             R&T fait partie et au sein de laquelle il peut coordonner certaines activités du projet. Il s’appuie sur différentes méthodes de gestion de
+             projet (Agile, SCRUM, etc.) et sur des outils collaboratifs. L’équipe assure le cycle de vie du projet informatique au travers des étapes
+             suivantes.<br><br>
+             C’est pourquoi cette section <b>présentera l’ensemble de la gestion de projet</b> que j’ai pu réaliser.<br>
+             Afin de mener à bien un projet informatique en équipe, nous avons utilisé une répartition du travail via la solution Trello (image 2).<br>
+             Il s’agit de suivre le flux d’informations global permettant la coordination du projet d’hôpital de campagne conseillé. J’ai
+             commencé par la création de trois catégories : les tâches en cours, celles qui restent à faire ainsi que les tâches terminées.
+             Cela nous a permis de suivre attentivement l’avancée de l’équipe et de savoir nous positionner dans le projet.
+             Combiné à cela, nous avons utilisé la méthode de <b>travail Agile</b>. Elle nous a permis, dans un certain cadre, d’être assez libres
+             concernant les tâches qui s’ajoutaient à ce que nous avions prévu, et donc de nous adapter en conséquence.<br><br>
+             Au sujet du coût de la main-d’œuvre, vous trouverez ici les détails. Nous aurions besoin d’une partie de l’équipe technique pour
+             le rackage, l’installation, le câblage ainsi que d’une partie de l’équipe senior pour la planification (qui comprend un suivi logistique,
+             la coordination et la supervision technique).<br><br>
+			 <b>Détail des tâches</b> :<br><br>
+			 Planification & PM (Planification, coordination, suivi logistique, supervision technique etc…) : 10 h (senior)<br>
+			 - Inventaire : 2 h senior <br>
+			 - Rackage + OS/config serveurs (2 DL380) : 2 h tech + 6 h senior<br>
+			 - Switches (2 CBS220) + câblage : 2 h tech + 4 h senior<br>
+			 - Routeurs Cisco C8200 (2) : 2 h tech + 6 h senior<br>
+			 - Pare-feu Stormshield SN220 : 1 h tech + 6 h senior (politiques, VPN, NAT, règles)<br>
+			 - Bornes Wi-Fi (4) : 8 h tech (pose/câblage) + 4 h senior (design SSID / canaux)<br>
+			 - PBX OmniPCX + postes IP (10) : 9 h tech (provis.) + 12 h senior (paramétrage PBX, SVI, routages)<br>
+			 - LTO / sauvegarde : 2 h tech + 6 h senior (tests)<br>
+			 - Tests, documentation, formation : 10 h (mix senior/tech)<br>
+			 - Déplacements / marge : heures supplémentaires prévues.<br><br>
+			   <b>Heures totales</b> : 127 h (senior 74 h, tech 53 h).<br>
+			 - Coûts main-d’œuvre bas (senior 95 € /h, tech 55 € /h) :<br>
+			 - Senior = 74 × 95 = 7 030 €<br>
+			 - Tech = 53 × 55 = 2 915€<br>
+			 - Câblage 20×60 = 1 200 €<br>
+			 - Divers = 750 €<br>
+			 - Total = 12 195,00 € HT (→ 14 024,00 € TTC)<br><br>
+
+
+			 Une partie des dépenses n’est pas inclus dans le devis (image 1) par rapport au total général estimé. Cela comporte les abonnements,
+			 travaux de génie civil important (Percement complexe, pose de chemin) astreintes 24h/7j sauf sous réserve d’un accord spécifique au
+			 préalable.<br><br>
+			 
+			 À la suite de ce Projet nous pouvons absolument faire un lien avec l'apprentissage critique AC31.06 qui permet de gérer un projet 
+			 et les différentes étapes de sa mise en œuvre en respectant les délais ainsi que l'apprentissage critique AC33.02 qui
+			 définit la mise en place un environnement de travail collaboratif.</p>
+
+
           <div class="tags">
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
+            <span class="tag">Pilotage de projet</span>
+            <span class="tag">Méthode Agile</span>			
+            <span class="tag">Réseau</span>
+            <span class="tag">Trello</span>
           </div>
         </div>
 
