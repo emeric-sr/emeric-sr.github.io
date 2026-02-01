@@ -181,17 +181,17 @@
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">À venir</p>
+                <p class="title">Projet Solar Assitant</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-4-modal" src="img/pied-piper-logo.png">
+                  <img class="modal-trigger" data-target="project-4-modal" src="img/ouioui4.jpg">
                 </figure>
               </article>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="title">À venir</p>
+                <p class="title">Infrastructure Réseau d’Entreprise</p>
                 <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-5-modal" src="img/pied-piper-logo.png">
+                  <img class="modal-trigger" data-target="project-5-modal" src="img/entreprise.png">
                 </figure>
               </article>
             </div>
@@ -602,29 +602,67 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">À venir</p>
+        <p class="modal-card-title">Projet Solar Assistant</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
         <div id="project-4-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
+            <img src="img/carousel/img1sae503.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
+            <img src="img/carousel/img2sae503.png">
           </figure>
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/carousel/img4_505.jpg">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/img4_503.jpg">
           </figure>
         </div>
 
         <div class="content">
-          <p>À venir</p>
+          <p>
+            Le projet SolarAssistant démontre de manière fonctionnelle une solution pour répondre aux défis de l'autoconsommation, tant au niveau 
+            individuel que collectif.<br>
+            L’objectif principal est de réduire la dépendance au réseau électrique traditionnel en optimisant l'usage de l'énergie 
+            solaire produite localement. Dans un premier temps vous pourriez vous demander ce qu’est l’autoconsommation dans le cadre de notre projet.<br>
+            Il s’agit là de consommation d’électricité produite par un seul et même individu ou un même groupe de personne.<br><br>
+            Le système permet de :<br><br>
+            - Surveiller en temps réel la production et la consommation de plusieurs habitations<br>
+            - Piloter automatiquement des équipements domestiques en fonction de la disponibilité de l'énergie solaire<br>
+            - Répartir intelligemment le surplus d'énergie au sein d'une communauté de maisons<br>
+            - Fournir une interface de supervision ergonomique via un dashboard web moderne (image 1)<br><br>
+
+            Au niveau des réalisations techniques, nous avons déployé une architecture basée autour de plusieurs équipements et logiciel :<br><br>
+            - Gestion locale (Côté Client) : Utilisation de Home Assistant et Node-RED sur Raspberry Pi pour collecter les données de consommation via des objets connectés (Shelly, Meross) et des prises virtuelles MQTT<br>
+            - Infrastructure Serveur : Développement d'une API centrale en PHP et d'une base de données MariaDB pour centraliser les mesures et orchestrer les calculs énergétiques (image 2)<br>
+            - Algorithmes de répartition : Mise en place d'un système de hiérarchisation des maisons basé sur un ratio d'autonomie (Production cumulée / Consommation cumulée) pour distribuer équitablement le surplus interne<br>
+            - Scénarios d'usage : Implémentation de notifications automatisées via WhatsApp et de modes d'interruption automatique des appareils non prioritaires en cas de surconsommation (image 3)<br><br>
+            
+           (Les différents matériels dont nous avions à disposition sont visibles image 4)<br><br>
+
+           Une partie importante du projet reposait sur une étude a consisté à analyser la viabilité réglementaire et économique d'un tel système en France.<br><br>
+           Le projet s'inscrit dans le cadre strict du Code de l'énergie. Pour une opération d'autoconsommation collective, la création d'une Personne Morale Organisatrice (PMO) est obligatoire. Vous pourriez encore une fois vous demander ce qu’est une PMO désormais ?<br><br>
+           La PMO à plusieurs rôles :<br><br>
+           Premièrement elle assure la coordination administrative, mais va aussi gérer les clés de répartition de l'énergie entre les participants ainsi que le lien avec le gestionnaire de réseau (Enedis). <br><br>
+           Cependant (point important) la PMO n'a pas vocation commerciale, donc elle ne peut ni acheter ni vendre d’électricité.<br><br>
+
+           Au niveau des aspects financiers, même en autoconsommation, les utilisateurs restent redevables du TURPE (Tarif d'Utilisation des Réseaux Publics d'Électricité), une contribution obligatoire pour l'usage du réseau Enedis.<br>
+           Le système SolarAssistant vise précisément à minimiser ces coûts en favorisant la consommation locale immédiate par le biais d'automatisations intelligentes.<br><br>
+           
+           Au final SolarAssistant démontre qu'une gestion intelligente et collective de l'énergie solaire est techniquement réalisable grâce aux outils de l'IoT et de la 
+           domotique open-source. Bien que le cadre juridique impose une structure rigoureuse (PMO, certifications), ce projet constitue une base solide pour des 
+           communautés énergétiques résilientes, capables d'optimiser leur autonomie tout en respectant les normes de sécurité et de distribution nationale.<br><br>
+
+           Enfin, à ce titre nous pouvons absolument faire un lien avec l'apprentissage critique du programme national AC35.03PilPro Prise de responsabilité envers
+           les équipes étant donné que j'ai pu effectuer l'entièreté des tâches administratives.<br><br>
+
+            </p>
           <div class="tags">
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
+            <span class="tag">Autoconsommation</span>
+            <span class="tag">Administratif</span>
+            <span class="tag">Finance</span>
           </div>
         </div>
 
@@ -639,29 +677,65 @@
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">À venir</p>
+        <p class="modal-card-title">Conception d’une Infrastructure Réseau d’Entreprise</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
         <div id="project-5-modal-carousel" class="carousel">
           <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
+            <img src="img/carousel/oui111.png">
           </figure>
         </div>
 
         <div class="content">
-          <p>À venir</p>
+          <p>La SAÉ 501 a pour eu pour objectif de nous mettre en situation réelle de conception et de réalisation d'un réseau d'entreprise complet. Il ne s'agit pas 
+            seulement de configurer des équipements, mais de bâtir une infrastructure cohérente reliant un site central (HQ) et un site distant (Remote), en intégrant 
+            des services critiques : un service d'annuaire (Active Directory), gestion des certificats (PKI), accès distants sécurisés (VPN) et services web.
+            L'enjeu majeur était de passer de la théorie (schémas de principe) à la pratique, en confrontant nos choix techniques aux réalités du terrain et aux 
+            imprévus de dernière minute.</p>
+
+            Durant cette article je vais vous parler du suivis et de l'impact des différentes tâches que j'ai pu effectué dans le cadre de mon parcours à savoir pilotage
+            de projet réseau.<br><br>
+
+            En tout premier lieu j'ai crée une Mind Map (une carte heuristique)<br><br>
+
+            Vous pourriez vous demandez pourquoi ? Cet outil a permis de cartographier l'ensemble des différentes tâches départagés en plusieurs section.<br><br>
+            Dans un projet où les services sont interdépendants, la Mind Map évite l'oubli de composants essentiels.<br><br>
+
+            Dans un second temps j'ai pu créer un Trello couplé à un Gantt <br><br>
+
+            Une fois l'architecture définie, il a fallu organiser la mise en place des différentes tâches permettant une organisation en assignant chacune des tâches
+            aux différents membres du groupe.<br> <br>
+
+            J'ai donc utilisé trello permettant ainsi la mise en place de la methode agile. Chaque service  (DHCP, IIS, OpenVPN) était découpé en cartes "À faire",
+            "En cours" ou "Terminé". Cela nous a permis de ne pas nous éparpiller, et veiller au bon avancement du projet. De plus je devais rendre des comptes quotidiennement 
+            aux enseignants durant cette SAÉ, ce qui jour après jour me permets d'expliquer l'état d'avancement du projet, nos blocages etc.<br><br>
+
+            Enfin grâce au diagrammes de gant (couplé à Trello), le Gantt a servi à fixer les échéances des différents jalons et ainsi vérifier que chacun des membres du
+            groupe n'a pas de trop de tâches à effectuer dans une seule et même journée (et inversement).<br><br>
+
+            Ainsi cela permet de visualiser si certaines tâches prioritaires doivent impérativement être terminé avant une date butoire (afin d'avancer au maximum
+            dans le projet).<br><br>
+
+            Et pour finir nous avons opté pour GitHub permettant un dashboard centralisé, nous l'avons donc utilisé non pas uniquement comme un dépôt de code, mais 
+            comme un véritable Dashboard de projet permettant ainsi l'intégration d'absolument tout les fichiers (.conf OpenVPN, scripts de bridge tap0, etc.) ainsi que
+            différents jalons à rendre.<br>
+            Accessoirement, cela nous a permis d'avoir une backup entre chaque avancement.<br>
+            Ainsi avoir une tel tracabilité de chacune de nos modifications cela nous a permis de faciliter le débogage et offre une visibilité suplémentaire 
+            aux enseignants. <br><br>
+                        
+            Cette SAÉ a été une immersion dans le quotidien d'un administrateur système et réseau. Au-delà de l'aspect très technique de cette SAÉ, elle m'a appris 
+            l'importance d'une bonne gestion des différents outils afin structurer de manière claire et concise chacune des différentes tâches tout particulièrement
+            lorsque je dois rendre des comptes quotidiennement afin d'expliquer l'état d'avancement de mon équipe et faire office d'interlocuteurs afin de signaler 
+            tout blocage (pour essayer de trouver une solution).<br><br>
+
+            À ce titre, me concernant, je peux absolument faire un lien avec l'AC31.05 Communiquer avec les acteurs du projet.<br><br>
+
+        
           <div class="tags">
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
-            <span class="tag">?</span>
+            <span class="tag">Conception</span>
+            <span class="tag">Réseau</span>
+            <span class="tag">Pilotage de projet</span>
           </div>
         </div>
 
